@@ -6,7 +6,7 @@ YOURLS-de_DE
 
 ## Version
 
-Für YOURLS 1.6 (http://blog.yourls.org/2013/02/yourls-1-6-translators-wanted/)
+Für YOURLS 1.7 (http://blog.yourls.org/2013/02/yourls-1-6-translators-wanted/)
 
 
 ##Installation
