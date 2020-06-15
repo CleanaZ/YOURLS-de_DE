@@ -1,659 +1,542 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: YOURLS 1.6\n"
-"POT-Creation-Date: 2013-02-15 15:33+0100\n"
-"PO-Revision-Date: 2013-03-22 01:20+0100\n"
-"Last-Translator: Julian Sternberg <admin@ispire.me>\n"
-"Language-Team: \n"
+"Project-Id-Version: YOURLS 1.7.9\n"
+"POT-Creation-Date: 2020-06-14 05:23+0200\n"
+"PO-Revision-Date: 2020-06-15 04:42+0200\n"
+"Last-Translator: Ralf Zrenner <admin@progasoft.de>\n"
+"Language-Team: PROGASOFT\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 2.3.1\n"
 "X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
 "yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
 "yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
 "yourls_nx_noop:1,2\n"
-"X-Poedit-Basepath: .\n"
+"X-Poedit-Basepath: ../..\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-0: Language/de-own\n"
+"X-Poedit-SearchPath-1: Program\n"
+"X-Poedit-SearchPathExcluded-0: Program/YOURLS-1.7.9/js\n"
 
-#: yourls-infos.php:204
-#, php-format
-msgid "Statistics for %s"
-msgstr "Statistik für %s"
-
-#: yourls-infos.php:211
-msgid "Short URL:"
-msgstr "Short URL:"
-
-#: yourls-infos.php:227
-msgid "Aggregate stats for duplicate short URLs"
-msgstr "Summe der doppelten Short URLs"
-
-#: yourls-infos.php:229
-msgid "Long URL:"
-msgstr "Original URL:"
-
-#: yourls-infos.php:235 yourls-infos.php:246
-msgid "Traffic statistics"
-msgstr "Traffic Statistik"
-
-#: yourls-infos.php:236 yourls-infos.php:432
-msgid "Traffic location"
-msgstr "Traffic Herkunft"
-
-#: yourls-infos.php:237
-msgid "Traffic sources"
-msgstr "Traffic Quellen"
-
-#: yourls-infos.php:239 yourls-infos.php:540 includes/functions-html.php:463
-#: includes/functions-html.php:464
-msgid "Share"
-msgstr "Teilen"
-
-#: yourls-infos.php:254 yourls-infos.php:294
-msgid "Last 24 hours"
-msgstr "Letzte 24 Stunden"
-
-#: yourls-infos.php:255 yourls-infos.php:296
-msgid "Last 7 days"
-msgstr "Letzte 7 Tage"
-
-#: yourls-infos.php:256 yourls-infos.php:298
-msgid "Last 30 days"
-msgstr "Letzte 30 Tage"
-
-#: yourls-infos.php:257 yourls-infos.php:300
-msgid "All time"
-msgstr "alle Zeiten"
-
-#: yourls-infos.php:309
-#, php-format
-msgid "Number of hits : %s"
-msgstr "Anzahl der Treffer : %s"
-
-#: yourls-infos.php:332
-msgid "Historical click count"
-msgstr "Klick Historie"
-
-#: yourls-infos.php:338
-#, php-format
-msgid "about 1 day ago"
-msgid_plural "about %s days ago"
-msgstr[0] "ungefähr 1 Tag her"
-msgstr[1] "ungefähr %s Tage her"
-
-#. //translators: eg Short URL created on March 23rd 1972
-#: yourls-infos.php:341
-#, php-format
-msgid "Short URL created on %s"
-msgstr "Short URL erstellt am %s"
-
-#: yourls-infos.php:356 yourls-infos.php:363
-#, php-format
-msgid "%s per day"
-msgstr "%s am Tag"
-
-#: yourls-infos.php:359
-#, php-format
-msgid "%s per hour"
-msgstr "%s die Stunde"
-
-#: yourls-infos.php:366
-#, php-format
-msgid "%s hit"
-msgid_plural "%s hits"
-msgstr[0] "%s Treffer"
-msgstr[1] "%s Treffer"
-
-#: yourls-infos.php:373
-msgid "Best day"
-msgstr "bester Tag"
-
-#. //translators: eg. 43 hits on January 1, 1970
-#: yourls-infos.php:380
-#, php-format
-msgid "<strong>%s</strong> hit on %s"
-msgid_plural "<strong>%s</strong> hits on %s"
-msgstr[0] "<strong>%s</strong> Treffer am %s"
-msgstr[1] "<strong>%s</strong> Treffer am %s"
-
-#: yourls-infos.php:381 yourls-infos.php:443
-msgid "Click for more details"
-msgstr "Klicke hier für mehr Details"
-
-#: yourls-infos.php:387 yourls-infos.php:390
-#, php-format
-msgid "Year %s"
-msgstr "Jahre %s"
-
-#: yourls-infos.php:409 yourls-infos.php:447
-#, php-format
-msgid "1 hit"
-msgid_plural "%s hits"
-msgstr[0] "1 Treffer"
-msgstr[1] "%s Treffer"
-
-#: yourls-infos.php:426
-msgid "No traffic yet. Get some clicks first!"
-msgstr "Zu wenig Traffic. Sie brauchen mehr Klicks!"
-
-#: yourls-infos.php:441
-msgid "Top 5 countries"
-msgstr "Top 5 Länder"
-
-#: yourls-infos.php:454
-msgid "Overall traffic"
-msgstr "Gesamter Traffic"
-
-#: yourls-infos.php:463
-msgid "No country data."
-msgstr "Keine GEO Daten vorhanden."
-
-#: yourls-infos.php:469
-msgid "Traffic Sources"
-msgstr "Traffic Quellen"
-
-#: yourls-infos.php:478
-msgid "Referrer shares"
-msgstr "Referrer Anteile"
-
-#: yourls-infos.php:481
-msgid "Others"
-msgstr "Sonstige"
-
-#: yourls-infos.php:485 yourls-infos.php:519
-msgid "Referrers"
-msgstr "Referrer"
-
-#: yourls-infos.php:492 yourls-infos.php:503
-msgid "(details)"
-msgstr "(Details)"
-
-#: yourls-infos.php:503
-msgid "Various:"
-msgstr "Verschiedene:"
-
-#: yourls-infos.php:517
-msgid "Direct vs Referrer Traffic"
-msgstr "Direkt vs Referrer Traffic"
-
-#: yourls-infos.php:519
-msgid "Direct"
-msgstr "Direkt"
-
-#: yourls-infos.php:521
-msgid "Direct traffic:"
-msgstr "Direkter Traffic:"
-
-#: yourls-infos.php:521 yourls-infos.php:522
-#, php-format
-msgid "<strong>%s</strong> hit"
-msgid_plural "<strong>%s</strong> hits"
-msgstr[0] "<strong>%s</strong> Treffer"
-msgstr[1] "<strong>%s</strong> Treffer"
-
-#: yourls-infos.php:522
-msgid "Referrer traffic:"
-msgstr "Referrer Traffic:"
-
-#: yourls-infos.php:531
-msgid "No referrer data."
-msgstr "Keine Referrer Daten vorhanden."
-
-#: yourls-infos.php:542
-msgid "Short link"
-msgstr "Short Link"
-
-#: yourls-infos.php:542
-msgid "Quick Share "
-msgstr "Schnell Teilen"
-
-#: admin/index.php:13 admin/index.php:39 admin/index.php:98
-#: includes/functions-html.php:205 includes/functions-html.php:213
+#: Program/YOURLS-1.7.9/admin/index.php:18
+#: Program/YOURLS-1.7.9/admin/index.php:48
+#: Program/YOURLS-1.7.9/admin/index.php:120
+#: Program/YOURLS-1.7.9/includes/functions-html.php:243
+#: Program/YOURLS-1.7.9/includes/functions-html.php:255
 msgid "URL"
 msgstr "URL"
 
-#: admin/index.php:15 admin/index.php:35 admin/index.php:94
-#: includes/functions-html.php:204 includes/functions-html.php:212
-#: includes/functions-html.php:422 includes/functions-html.php:559
+#: Program/YOURLS-1.7.9/admin/index.php:20
+#: Program/YOURLS-1.7.9/admin/index.php:44
+#: Program/YOURLS-1.7.9/admin/index.php:116
+#: Program/YOURLS-1.7.9/includes/functions-html.php:242
+#: Program/YOURLS-1.7.9/includes/functions-html.php:254
+#: Program/YOURLS-1.7.9/includes/functions-html.php:506
+#: Program/YOURLS-1.7.9/includes/functions-html.php:668
+#: Program/YOURLS-1.7.9/yourls-infos.php:221
 msgid "Short URL"
-msgstr "Short URL"
+msgstr "Kurz-URL"
 
-#: admin/index.php:17 admin/index.php:120
-msgid "Descending Order"
-msgstr "in absteigender Reihenfolge"
+#: Program/YOURLS-1.7.9/admin/index.php:40
+#: Program/YOURLS-1.7.9/includes/functions-html.php:241
+msgid "All fields"
+msgstr "Alle Felder"
 
-#: admin/index.php:43 includes/functions-html.php:206
-#: includes/functions-html.php:422
+#: Program/YOURLS-1.7.9/admin/index.php:52
+#: Program/YOURLS-1.7.9/admin/index.php:124
+#: Program/YOURLS-1.7.9/includes/functions-html.php:244
+#: Program/YOURLS-1.7.9/includes/functions-html.php:256
+#: Program/YOURLS-1.7.9/includes/functions-html.php:506
 msgid "Title"
 msgstr "Titel"
 
-#: admin/index.php:47 admin/index.php:106
+#: Program/YOURLS-1.7.9/admin/index.php:56
+#: Program/YOURLS-1.7.9/admin/index.php:132
 msgid "IP Address"
 msgstr "IP Adresse"
 
-#: admin/index.php:51
+#: Program/YOURLS-1.7.9/admin/index.php:60
 #, php-format
-msgid "Searching for <strong>%s</strong> in <strong>%s</strong>."
-msgstr "Suche nach <strong>%s</strong> in <strong>%s</strong>."
+msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
+msgstr "Suche nach <strong>%1$s</strong> in <strong>%2$s</strong>."
 
-#: admin/index.php:102 includes/functions-html.php:214
-#: includes/functions-html.php:561
+#: Program/YOURLS-1.7.9/admin/index.php:128
+#: Program/YOURLS-1.7.9/includes/functions-html.php:257
+#: Program/YOURLS-1.7.9/includes/functions-html.php:670
 msgid "Date"
 msgstr "Datum"
 
-#: admin/index.php:110 includes/functions-html.php:216
-#: includes/functions-html.php:563
+#: Program/YOURLS-1.7.9/admin/index.php:136
+#: Program/YOURLS-1.7.9/includes/functions-html.php:259
+#: Program/YOURLS-1.7.9/includes/functions-html.php:672
 msgid "Clicks"
 msgstr "Klicks"
 
-#: admin/index.php:116
-msgid "Ascending Order"
-msgstr "in aufsteigender Reihenfolge"
+#: Program/YOURLS-1.7.9/admin/index.php:215
+#: Program/YOURLS-1.7.9/admin/index.php:226
+#: Program/YOURLS-1.7.9/admin/index.php:237
+#, php-format
+msgid "Short URL created, but could not redirect to %s !"
+msgstr "Kurz-URL erstellt, aber Weiterleitung zu %s nicht möglich !"
 
-#: admin/index.php:221
+#: Program/YOURLS-1.7.9/admin/index.php:247
+msgid "Unknown \"Share\" bookmarklet"
+msgstr "Unbekanntes \"Teilen\" Bookmarklet"
+
+#: Program/YOURLS-1.7.9/admin/index.php:300
 #, php-format
 msgid ""
-"Display <strong>%s</strong> to <strong class=\"increment\">%s</strong> of "
-"<strong class=\"increment\">%s</strong> URLs"
+"Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
+"of <strong class=\"increment\">%3$s</strong> URLs"
 msgstr ""
-"Zeige <strong>%s</strong> bis <strong class=\"increment\">%s</strong> von "
-"<strong class=\"increment\">%s</strong> URLs"
+"Zeige <strong>%1$s</strong> bis <strong class=\"increment\">%2$s</strong> "
+"von <strong class=\"increment\">%3$s</strong> URLs"
 
-#: admin/index.php:223
+#: Program/YOURLS-1.7.9/admin/index.php:302
+#, php-format
 msgid "counting <strong>1</strong> click"
-msgstr "Anzahl <strong>1</strong> Klick"
+msgid_plural "counting <strong>%s</strong> clicks"
+msgstr[0] "Anzahl <strong>1</strong> Klick"
+msgstr[1] "Anzahl <strong>%s</strong> Klicks"
 
-#: admin/index.php:226
+#: Program/YOURLS-1.7.9/admin/index.php:305
 #, php-format
 msgid ""
-"Overall, tracking <strong class=\"increment\">%s</strong> links, <strong>%s</"
-"strong> clicks, and counting!"
+"Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
+"%2$s</strong> clicks, and counting!"
 msgstr ""
-"Gesamt, tracking <strong class=\"increment\">%s</strong> Links, <strong>%s</"
-"strong> Klicks, und Anzah!"
+"Gesamt: <strong class=\"increment\">%1$s</strong> Tracking-Links  und "
+"<strong>%2$s</strong> Klicks"
 
-#: admin/index.php:286
+#: Program/YOURLS-1.7.9/admin/index.php:366
 msgid "No URL"
 msgstr "Keine URL"
 
-#: admin/install.php:13 admin/install.php:16
+#: Program/YOURLS-1.7.9/admin/install.php:13
+msgid "PHP extension for PDO not found"
+msgstr "PHP-Erweiterung für PDO (PHP Data Objects) nicht gefunden"
+
+#: Program/YOURLS-1.7.9/admin/install.php:18
+#: Program/YOURLS-1.7.9/admin/install.php:23
 #, php-format
 msgid "%s version is too old. Ask your server admin for an upgrade."
 msgstr ""
-"Version %s ist zu alt. Kontaktieren Sie Ihren Server Admin bezüglich eines "
-"Upgrades."
+"Version %s ist zu alt. Kontaktieren Sie Ihren Server-Administrator bezüglich "
+"eines Upgrades."
 
-#: admin/install.php:20
+#: Program/YOURLS-1.7.9/admin/install.php:29
 msgid "YOURLS already installed."
 msgstr "YOURLS ist bereits installiert."
 
-#: admin/install.php:31
+#: Program/YOURLS-1.7.9/admin/install.php:40
 msgid "File <tt>.htaccess</tt> successfully created/updated."
 msgstr "Datei <tt>.htaccess</tt> erfolgreich angelegt/aktualisiert."
 
-#: admin/install.php:33
+#: Program/YOURLS-1.7.9/admin/install.php:42
 msgid ""
 "Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will "
 "have to do it manually. See <a href=\"http://yourls.org/htaccess\">how</a>."
 msgstr ""
 "Datei <tt>.htaccess</tt> im YOURLS root Verzeichnis nicht beschreibbar. Sie "
-"müssen die Datei manuell editieren. Siehe <a href=\"http://yourls.org/"
+"müssen die Datei manuell bearbeiten. Siehe <a href=\"http://yourls.org/"
 "htaccess\">hier</a>."
 
-#: admin/install.php:46 admin/install.php:67
+#: Program/YOURLS-1.7.9/admin/install.php:55
+#: Program/YOURLS-1.7.9/admin/install.php:76
 msgid "Install YOURLS"
 msgstr "Installiere YOURLS"
 
-#: admin/install.php:70
+#: Program/YOURLS-1.7.9/admin/install.php:79
 msgid "YOURLS Administration Page"
 msgstr "YOURLS Administrationsseite"
 
-#: admin/plugins.php:38
+#: Program/YOURLS-1.7.9/admin/plugins.php:39
 msgid "Unsupported action"
 msgstr "Nicht unterstützte Aktion"
 
-#: admin/plugins.php:42
+#: Program/YOURLS-1.7.9/admin/plugins.php:43
 msgid "No plugin specified, or not a valid plugin"
 msgstr "Kein Plugin spezifiziert oder kein gültiges Plugin"
 
-#: admin/plugins.php:51
+#: Program/YOURLS-1.7.9/admin/plugins.php:52
 msgid "Plugin has been activated"
 msgstr "Plugin wurde aktiviert"
 
-#: admin/plugins.php:53
+#: Program/YOURLS-1.7.9/admin/plugins.php:54
 msgid "Plugin has been deactivated"
 msgstr "Plugin wurde deaktiviert"
 
-#: admin/plugins.php:58 includes/functions-html.php:678
+#: Program/YOURLS-1.7.9/admin/plugins.php:59
+#: Program/YOURLS-1.7.9/includes/functions-html.php:794
 msgid "Manage Plugins"
 msgstr "Verwalte Plugins"
 
-#: admin/plugins.php:63
+#: Program/YOURLS-1.7.9/admin/plugins.php:65
 msgid "Plugins"
 msgstr "Plugins"
 
-#: admin/plugins.php:70
+#: Program/YOURLS-1.7.9/admin/plugins.php:72
 #, php-format
 msgid "%s plugin"
 msgid_plural "%s plugins"
 msgstr[0] "%s Plugin"
 msgstr[1] "%s Plugins"
 
-#. //translators: "you have '3 plugins' installed and '1' activated"
-#: admin/plugins.php:74
+#: Program/YOURLS-1.7.9/admin/plugins.php:76
 #, php-format
 msgid ""
-"You currently have <strong>%s</strong> installed, and <strong>%s</strong> "
-"activated"
+"You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
+"strong> activated"
 msgstr ""
-"Es sind <strong>%s</strong> installiert, <strong>%s</strong> davon aktiviert"
+"Aktuell sind <strong>%1$s</strong> installiert, <strong>%2$s</strong> davon "
+"aktiviert"
 
-#: admin/plugins.php:79
+#: Program/YOURLS-1.7.9/admin/plugins.php:81
 msgid "Plugin Name"
-msgstr "Plugin Name"
+msgstr "Plugin-Name"
 
-#: admin/plugins.php:80
+#: Program/YOURLS-1.7.9/admin/plugins.php:82
 msgid "Version"
 msgstr "Version"
 
-#: admin/plugins.php:81
+#: Program/YOURLS-1.7.9/admin/plugins.php:83
 msgid "Description"
 msgstr "Beschreibung"
 
-#: admin/plugins.php:82
+#: Program/YOURLS-1.7.9/admin/plugins.php:84
 msgid "Author"
 msgstr "Autor"
 
-#: admin/plugins.php:83
+#: Program/YOURLS-1.7.9/admin/plugins.php:85
 msgid "Action"
 msgstr "Aktion"
 
-#: admin/plugins.php:118
+#: Program/YOURLS-1.7.9/admin/plugins.php:110
+msgid "(no info)"
+msgstr "(keine Information)"
+
+#: Program/YOURLS-1.7.9/admin/plugins.php:120
 msgid "Deactivate"
 msgstr "Deaktivieren"
 
-#: admin/plugins.php:122
+#: Program/YOURLS-1.7.9/admin/plugins.php:124
 msgid "Activate"
 msgstr "Aktivieren"
 
-#: admin/plugins.php:133
+#: Program/YOURLS-1.7.9/admin/plugins.php:135
 #, php-format
 msgid "plugin file location: %s"
-msgstr "Plugin Datei Speicherort: %s"
+msgstr "Plugin Datei-Speicherort: %s"
 
-#: admin/plugins.php:150
+#: Program/YOURLS-1.7.9/admin/plugins.php:152
 msgid "Toggle active/inactive plugins"
 msgstr "Wähle aktive/inaktive Plugins"
 
-#: admin/plugins.php:157
+#: Program/YOURLS-1.7.9/admin/plugins.php:159
 msgid ""
 "If something goes wrong after you activate a plugin and you cannot use "
 "YOURLS or access this page, simply rename or delete its directory, or rename "
 "the plugin file to something different than <code>plugin.php</code>."
 msgstr ""
 "Sollte nach Aktivierung eines Plugin etwas schief gehen und YOURLS nicht "
-"mehr erreichbar sein, benennen sie das Verzeichnis des Plugin einfach um "
-"oder löschen es, oder geben Sie der Plugin Datei einen anderen Name als "
-"<code>plugin.php</code>"
+"mehr erreichbar sein, benennen sie das Verzeichnis des Plugins einfach um "
+"oder löschen es, oder geben Sie der Plugin-Datei einen anderen Name als "
+"<code>plugin.php</code>."
 
-#: admin/plugins.php:159
+#: Program/YOURLS-1.7.9/admin/plugins.php:161
 msgid "More plugins"
 msgstr "Mehr Plugins"
 
-#: admin/plugins.php:161
+#: Program/YOURLS-1.7.9/admin/plugins.php:163
 msgid ""
-"For more plugins, head to the official <a href=\"http://yourls.org/pluginlist"
+"For more plugins, head to the official <a href=\"http://yourls.org/awesome"
 "\">Plugin list</a>."
 msgstr ""
 "Mehr Plugins erhalten Sie über die offizielle Seite <a href=\"http://yourls."
 "org/pluginlist\">Plugin list</a>."
 
-#: admin/tools.php:6
+#: Program/YOURLS-1.7.9/admin/tools.php:6
 msgid "Cool YOURLS Tools"
 msgstr "Coole YOURLS Tools"
 
-#: admin/tools.php:13
+#: Program/YOURLS-1.7.9/admin/tools.php:13
 msgid "Bookmarklets"
-msgstr "Bookmarklets"
+msgstr "Bookmarklets (Aktions-Lesezeichen)"
 
-#: admin/tools.php:15
+#: Program/YOURLS-1.7.9/admin/tools.php:15
 msgid ""
-"YOURLS comes with <span>four</span> handy <span>bookmarklets</span> for "
-"easier link shortening."
+"YOURLS comes with handy <span>bookmarklets</span> for easier link shortening "
+"and sharing."
 msgstr ""
-"YOURLS wird mit <span>vier</span> praktischen <span>bookmarklets</span> "
-"ausgeliefert für leichtes Link shortening."
+"YOURLS wird mit praktischen <span>Bookmarklets</span>  für einfacheres "
+"Kürzen und Teilen von Links ausgeliefert."
 
-#: admin/tools.php:17
+#: Program/YOURLS-1.7.9/admin/tools.php:17
 msgid "Standard or Instant, Simple or Custom"
-msgstr "Standard oder direkt, einfach oder benutzerspezifisch"
+msgstr "Standard oder Direkt, Einfach oder Benutzerdefiniert"
 
-#: admin/tools.php:20
+#: Program/YOURLS-1.7.9/admin/tools.php:20
 msgid ""
 "The <span>Standard Bookmarklets</span> will take you to a page where you can "
 "easily edit or delete your brand new short URL."
 msgstr ""
-"Das <span>Standard Bookmarklets</span> leitet sie zur Seite weiter wo Sie "
-"ganz einfach neue Short URL editieren oder löschen können."
+"Die <span><em><strong>Standard</strong>-Bookmarklets</em></span> erzeugen "
+"eine neue Kurz-URL und leiten sie dann zu einer neuen Seite weiter, wo Sie "
+"diese URL ganz einfach bearbeiten, teilen oder löschen können."
 
-#: admin/tools.php:22
+#: Program/YOURLS-1.7.9/admin/tools.php:22
 msgid ""
 "The <span>Instant Bookmarklets</span> will pop the short URL without leaving "
 "the page you are viewing."
 msgstr ""
-"Über die <span>direkt Bookmarklets</span> können Sie Short URL anlegen ohne "
-"die aktuelle Seite zu verlassen auf der Sie sich befinden."
+"Die <span><em><strong>Direkt</strong>-Bookmarklets</em></span> erzeugen eine "
+"neue Kurz-URL und zeigen diese in einem Popup-Fenster an, ohne die aktuell "
+"angezeigte Seite zu verlassen<br /><br />"
 
-#: admin/tools.php:24
+#: Program/YOURLS-1.7.9/admin/tools.php:24
 msgid ""
 "The <span>Simple Bookmarklets</span> will generate a short URL with a random "
 "or sequential keyword."
 msgstr ""
-"Die <span>einfachen Bookmarklets</span> generieren einen Short URL mit einem "
-"zufälligen oder fortlaufenden Schlüsselwort."
+"Die <span><em><strong>Einfach</strong>-Bookmarklets</em></span> generieren "
+"eine neue Kurz-URL mit einem zufälligen oder fortlaufenden Schlüsselwort."
 
-#: admin/tools.php:26
+#: Program/YOURLS-1.7.9/admin/tools.php:26
 msgid ""
 "The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom "
 "keyword first."
 msgstr ""
-"Das <span>Benutzerspezifische Schlüsselwort Bookmarklets</span> wird Sie "
-"zuerst zur Eingabe eines Schlüsselwortes auffordern."
+"Die <span><em><strong>Benunterdefiniert</strong>-Bookmarklets</em></span> "
+"fordern Sie zuerst zur Eingabe eines von Ihnen gewünschten Schlüsselwortes "
+"auf."
 
-#: admin/tools.php:30
-msgid ""
-"With the Standard Bookmarklets you will also get a <span>Quick Share</span> "
-"tool box to make posting to Twitter, Facebook or Friendfeed a snap."
-msgstr ""
-"Das Standard Bookmarklets enthält eine <span>Quick Share</span> Tool Box mit "
-"der Sie das Posten auf Twitter, Facebook oder Friendfeed beschleunigen "
-"können."
-
-#: admin/tools.php:32
+#: Program/YOURLS-1.7.9/admin/tools.php:30
 msgid ""
 "If you want to share a description along with the link you're shortening, "
 "simply <span>select text</span> on the page you're viewing before clicking "
 "on your bookmarklet link"
 msgstr ""
-"Wenn Sie eine Beschreibung in den zu shortenden Link einfügen wollen, "
-"klicken Sie einfach <span>text auswählen</span> auf der Seite bevor Sie auf "
-"den Bookmarklet Link geklickt haben."
+"Wenn Sie eine Beschreibung zu dem zu kürzenden Link hinzufügen wollen, "
+"<span>markieren</span> Sie einfach den beschreibenden Text auf der Seite "
+"bevor Sie auf den Bookmarklet-Link klicken"
 
-#: admin/tools.php:35
+#: Program/YOURLS-1.7.9/admin/tools.php:33
 msgid "The Bookmarklets"
 msgstr "Die Bookmarklets"
 
-#: admin/tools.php:37
+#: Program/YOURLS-1.7.9/admin/tools.php:37
+#: Program/YOURLS-1.7.9/admin/tools.php:186
 msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
 msgstr ""
-"Klicken und bewegen Sie die Links in Ihr Toolbar (oder Rechtsklick + "
-"Bookmark)"
+"Klicken und ziehen Sie die Bookmarklet-Links in die Lesezeichen-/Bookmark-"
+"Toolbar des Browsers (oder Rechtsklick + Bookmark)"
 
-#: admin/tools.php:43
+#: Program/YOURLS-1.7.9/admin/tools.php:43
 msgid "Standard (new page)"
 msgstr "Standard (neue Seite)"
 
-#: admin/tools.php:44
+#: Program/YOURLS-1.7.9/admin/tools.php:44
 msgid "Instant (popup)"
-msgstr "Direkt (popup)"
+msgstr "Direkt (Popup)"
 
-#: admin/tools.php:49
+#: Program/YOURLS-1.7.9/admin/tools.php:49
 msgid "Simple"
 msgstr "Einfach"
 
-#: admin/tools.php:50 admin/tools.php:51 admin/tools.php:55 admin/tools.php:56
-msgid "Drag to your toolbar!"
-msgstr "Ziehe auf Dein Toolbar!"
-
-#: admin/tools.php:50
+#: Program/YOURLS-1.7.9/admin/tools.php:80
 msgid "Shorten"
-msgstr "Shorten"
+msgstr "Kürzen"
 
-#: admin/tools.php:51
+#: Program/YOURLS-1.7.9/admin/tools.php:105
 msgid "Instant Shorten"
-msgstr "direkt Shorten"
+msgstr "Direkt kürzen"
 
-#: admin/tools.php:54
+#: Program/YOURLS-1.7.9/admin/tools.php:111
 msgid "Custom Keyword"
-msgstr "benutzerdefiniertes Schlüsselwort"
+msgstr "Benutzerdefiniert"
 
-#: admin/tools.php:55
+#: Program/YOURLS-1.7.9/admin/tools.php:146
 msgid "Custom shorten"
-msgstr "Benutzerspezifisch shorten"
+msgstr "Ben.def. kürzen"
 
-#: admin/tools.php:56
+#: Program/YOURLS-1.7.9/admin/tools.php:174
 msgid "Instant Custom Shorten"
-msgstr "direkt benutzerdefiniert Shorten"
+msgstr "Direkt ben.def. kürzen"
 
-#: admin/tools.php:61
+#: Program/YOURLS-1.7.9/admin/tools.php:183
+msgid "Social Bookmarklets"
+msgstr "Social Bookmarklets"
+
+#: Program/YOURLS-1.7.9/admin/tools.php:185
+msgid "Create a short URL and share it on social networks, all in one click!"
+msgstr ""
+"Erstellen einer Kurz-URL und sofortiges Teilen auf Sozialen Netzwerken!"
+
+#: Program/YOURLS-1.7.9/admin/tools.php:188
+msgid "Shorten and share:"
+msgstr "Kürzen und teilen:"
+
+#: Program/YOURLS-1.7.9/admin/tools.php:213
+msgid "YOURLS &amp; Facebook"
+msgstr "YOURLS &amp; Facebook"
+
+#: Program/YOURLS-1.7.9/admin/tools.php:244
+msgid "YOURLS &amp; Twitter"
+msgstr "YOURLS &amp; Twitter"
+
+#: Program/YOURLS-1.7.9/admin/tools.php:276
+msgid "YOURLS &amp; Tumblr"
+msgstr "YOURLS &amp; Tumblr"
+
+#: Program/YOURLS-1.7.9/admin/tools.php:281
+msgid ""
+"<strong>Note:</strong> depending on server settings, bookmarklets might fail "
+"on websites with <em>https</em>."
+msgstr ""
+"<strong>Hinweis:</strong> Abhängig von den Server-Einstellungen könnten "
+"Bookmarklets auf <em>https</em>-Webseiten nicht funktionieren."
+
+#: Program/YOURLS-1.7.9/admin/tools.php:285
 msgid "Prefix-n-Shorten"
-msgstr "Prefix-n-Shorten"
+msgstr "Kürzen durch Voranstellen"
 
-#: admin/tools.php:63
+#: Program/YOURLS-1.7.9/admin/tools.php:287
 #, php-format
 msgid ""
 "When viewing a page, you can also prefix its full URL: just head to your "
 "browser's address bar, add \"<span>%s</span>\" to the beginning of the "
 "current URL (right before its 'http://' part) and hit enter."
 msgstr ""
-"Während dem Aufruf einer Seite können Sie auch den Präfix einer Original URL "
-"über Ihre Adressleiste hinzufügen. Stellen Sie einfach \"<span>%s</span>\" "
-"voran, vor Ihre aktuelle URL (vor 'http://' Bereich) und drücken Sie die "
-"Eingabetaste."
+"Beim Aufruf/Anzeigen einer Seite können Sie dessen Adresse (URL) auch gleich "
+"in eine Kurz-URL umwandeln. Stellen Sie einfach \"<span>%s</span>\" vor die "
+"eingegebene/aktuelle URL [vor den 'http(s)://' -Bereich in der Browser-"
+"Adresszeile] und drücken Sie die Eingabetaste. Sie werden dann zu einer "
+"neuen Seite weitergeleitet, wo Sie die erzeugte Kurz-URL ganz einfach "
+"bearbeiten, teilen oder löschen können."
 
-#: admin/tools.php:66
+#: Program/YOURLS-1.7.9/admin/tools.php:290
 msgid ""
 "Note: this will probably not work if your web server is running on Windows"
 msgstr ""
-"Hinweis: Dies wird vermutlich nicht funktionieren wenn Ihr Webserver unter "
-"Windows betrieben wird"
+"<strong>Hinweis:</strong> Dies wird vermutlich nicht funktionieren wenn Ihr "
+"Webserver unter Windows betrieben wird"
 
-#: admin/tools.php:68
+#: Program/YOURLS-1.7.9/admin/tools.php:292
 msgid " (which seems to be the case here)"
 msgstr " (welches der Fall hier sein sollte)"
 
-#: admin/tools.php:74
+#: Program/YOURLS-1.7.9/admin/tools.php:298
 msgid "Secure passwordless API call"
-msgstr "Sicherer passwortloser API Aufruf"
+msgstr "Sicherer passwortloser API-Aufruf"
 
-#: admin/tools.php:77
+#: Program/YOURLS-1.7.9/admin/tools.php:301
 msgid ""
 "YOURLS allows API calls the old fashioned way, using <tt>username</tt> and "
 "<tt>password</tt> parameters."
 msgstr ""
-"YOURLS erlaubt API Aufrufe nach dem alten Prinzip, gemäß <tt>username</tt> "
-"und <tt>password</tt> Parameter."
+"YOURLS erlaubt API-Aufrufe nach der alten Methode durch Nutzung von "
+"<tt>Benutzername</tt> und <tt>Passwort</tt> -Parameter."
 
-#: admin/tools.php:79
+#: Program/YOURLS-1.7.9/admin/tools.php:303
 msgid ""
 "If you're worried about sending your credentials into the wild, you can also "
 "make API calls without using your login or your password, using a secret "
 "signature token."
 msgstr ""
-"Wenn Sie nicht möchten die Zugangsdaten an andere weiterzugeben, können Sie "
-"Zugriffe ebenso über API Aufrufe mit einer geheimen Signatur anstatt "
+"Wenn Sie Ihre Zugangsdaten nicht an andere weitergeben möchten, können Sie "
+"Zugriffe ebenso über API-Aufrufe mit einer geheimen Signatur anstatt "
 "Benutzernamen und Passwort steuern."
 
-#: admin/tools.php:83
+#: Program/YOURLS-1.7.9/admin/tools.php:306
 #, php-format
 msgid "Your secret signature token: <strong><code>%s</code></strong>"
-msgstr "Ihr geheimer Signatur Token: <strong><code>%s</code></strong>"
+msgstr "Ihr geheimer Signatur-Token: <strong><code>%s</code></strong>"
 
-#: admin/tools.php:84
+#: Program/YOURLS-1.7.9/admin/tools.php:307
 msgid "(It's a secret. Keep it secret) "
-msgstr "(Dies ist geheim. Behalten Sie es geheim)"
+msgstr "(Dies ist geheim. Behalten Sie es geheim) "
 
-#: admin/tools.php:87
+#: Program/YOURLS-1.7.9/admin/tools.php:309
 msgid ""
 "This signature token can only be used with the API, not with the admin "
 "interface."
 msgstr ""
-"Der Signatur Token kann nur über die API-Schnittstelle verwendet werden und "
-"nicht über den Admin Bereich."
+"Dieses Signatur-Token kann nur über die API-Schnittstelle verwendet werden "
+"und nicht über den Admin-Bereich."
 
-#: admin/tools.php:90
+#: Program/YOURLS-1.7.9/admin/tools.php:312
 msgid "Usage of the signature token"
-msgstr "Anwendungsbeispiel des Signatur Token"
+msgstr "Benutzung des Signatur-Tokens"
 
-#: admin/tools.php:91
+#: Program/YOURLS-1.7.9/admin/tools.php:313
 msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
 msgstr ""
-"Verwenden Sie einfach <tt>signature</tt> in Ihrer API Abfrage. Beispiel:"
+"Verwenden Sie einfach <tt>signature</tt> in Ihrer API-Abfrage. Beispiel:"
 
-#: admin/tools.php:95
+#: Program/YOURLS-1.7.9/admin/tools.php:317
 msgid "Usage of a time limited signature token"
-msgstr "Benutzung eines Zeit limitierten Signatur Token"
+msgstr "Benutzung eines Zeit-limitierten Signatur-Tokens"
 
-#: admin/tools.php:98 admin/tools.php:100
+#: Program/YOURLS-1.7.9/admin/tools.php:320
+#: Program/YOURLS-1.7.9/admin/tools.php:322
 msgid "actual value:"
-msgstr "Aktueller Wert:"
+msgstr "Konkreter Wert:"
 
-#: admin/tools.php:103
+#: Program/YOURLS-1.7.9/admin/tools.php:325
 msgid ""
 "Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API "
 "requests. Example:"
 msgstr ""
 "Benutzen Sie jetzt die Parameter <tt>signature</tt> und <tt>timestamp</tt> "
-"in Ihrer API Abfrage. Beispiel:"
+"in Ihrer API-Abfrage. Beispiel:"
 
-#: admin/tools.php:105
+#: Program/YOURLS-1.7.9/admin/tools.php:327
 msgid "Actual values:"
-msgstr "Aktuellen Werte:"
+msgstr "Konkrete Werte:"
 
-#: admin/tools.php:107
+#: Program/YOURLS-1.7.9/admin/tools.php:329
 #, php-format
 msgid "This URL would be valid for only %s seconds"
 msgstr "Diese URL ist nur für %s Sekunden gültig"
 
-#: admin/tools.php:111
+#: Program/YOURLS-1.7.9/admin/tools.php:333
+#, php-format
+msgid "See the <a href=\"%s\">Passwordless API</a> page on the wiki."
+msgstr ""
+"Besuchen Sie die Seite <a href=\"%s\">Passwortloses API</a> im Wiki für mehr "
+"Infos."
+
+#: Program/YOURLS-1.7.9/admin/tools.php:334
 #, php-format
 msgid "See the <a href=\"%s\">API documentation</a> for more"
-msgstr "Besuchen Sie <a href=\"%s\">API Dokumentation</a> für mehr Infos"
+msgstr ""
+"Besuchen Sie die <a href=\"%s\">API Dokumentation</a> für weitere Infos"
 
-#: admin/upgrade.php:9 admin/upgrade.php:13
+#: Program/YOURLS-1.7.9/admin/upgrade.php:9
+#: Program/YOURLS-1.7.9/admin/upgrade.php:13
 msgid "Upgrade YOURLS"
 msgstr "Upgrade YOURLS"
 
-#: admin/upgrade.php:18
+#: Program/YOURLS-1.7.9/admin/upgrade.php:18
 #, php-format
 msgid "Upgrade not required. Go <a href=\"%s\">back to play</a>!"
 msgstr "Upgrade nicht erforderlich. Gehe <a href=\"%s\">zurück</a>!"
 
-#: admin/upgrade.php:51
+#: Program/YOURLS-1.7.9/admin/upgrade.php:51
 msgid "Your current installation needs to be upgraded."
-msgstr "Deine aktuelle Installation benötigt ein Upgrade."
+msgstr "Ihre aktuelle Installation benötigt ein Upgrade."
 
-#: admin/upgrade.php:52
+#: Program/YOURLS-1.7.9/admin/upgrade.php:52
 msgid ""
 "Please, pretty please, it is recommended that you <strong>backup</strong> "
 "your database<br/>(you should do this regularly anyway)"
 msgstr ""
 "Es wird dringend empfohlen das Sie regelmässig ein <strong>Backup</strong> "
-"Ihrer Datenbank<br/>erstellen"
+"Ihrer Datenbank<br/>erstellen (was Sie sowieso regelmäßig machen sollten)"
 
-#: admin/upgrade.php:53
+#: Program/YOURLS-1.7.9/admin/upgrade.php:53
 msgid ""
 "Nothing awful <em>should</em> happen, but this doesn't mean it <em>won't</"
 "em> happen, right? ;)"
@@ -661,728 +544,781 @@ msgstr ""
 "Es <em>sollte</em> nichts schlimmes passieren, aber das soll nicht heissen "
 "das es <em>nicht</em>passieren könnte, richtig? ;)"
 
-#: admin/upgrade.php:54
+#: Program/YOURLS-1.7.9/admin/upgrade.php:54
 msgid ""
 "On every step, if <span class='error'>something goes wrong</span>, you'll "
 "see a message and hopefully a way to fix."
 msgstr ""
-"Bei jedem Schritt, wenn <span class='error'>Etwas geht schief</span> "
-"erscheint, wird Ihnen eine Fehlermeldung angezeigt mit der Info wie der "
-"Fehler zu beheben ist."
+"Bei jedem Schritt, falls <span class='error'>etwas geht schief</span> "
+"erscheint eine Fehlermeldung mit einer Info wie der Fehler hoffentlich zu "
+"beheben ist."
 
-#: admin/upgrade.php:55
+#: Program/YOURLS-1.7.9/admin/upgrade.php:55
 msgid ""
 "If everything goes too fast and you cannot read, <span class=\"success"
 "\">good for you</span>, let it go :)"
 msgstr ""
-"Wenn alles zu schnell geht und Sie nicht lesen können,<span class=\"success"
-"\">Gut für Sie</span>, lassen Sie es laufen :)"
+"Wenn etwas zu schnell geht und Sie nicht mitlesen können,<span class="
+"\"success\">Gut für Sie</span>, lassen Sie es laufen :)"
 
-#: admin/upgrade.php:56
+#: Program/YOURLS-1.7.9/admin/upgrade.php:56
 msgid "Once you are ready, press \"Upgrade\" !"
 msgstr "Sobald bereit, drücken Sie auf \"Upgrade\" !"
 
-#: admin/upgrade.php:65
+#: Program/YOURLS-1.7.9/admin/upgrade.php:65
 msgid "Upgrade"
 msgstr "Upgrade"
 
-#: admin/upgrade.php:77
+#: Program/YOURLS-1.7.9/admin/upgrade.php:77
 msgid "Your installation is now up to date ! "
-msgstr "Deine Installation ist jetzt up to date !"
+msgstr "Deine Installation ist jetzt aktuell ! "
 
-#: admin/upgrade.php:78
+#: Program/YOURLS-1.7.9/admin/upgrade.php:78
 #, php-format
 msgid "Go back to <a href=\"%s\">the admin interface</a>"
-msgstr "Zurück in <a href=\"%s\">den Admin Bereich</a>"
+msgstr "Zurück zum <a href=\"%s\">Admin Bereich</a>"
 
-#: includes/functions-auth.php:18
+#: Program/YOURLS-1.7.9/includes/Database/YDB.php:164
+msgid "Incorrect DB config, or could not connect to DB"
+msgstr ""
+"Fehlerhafte DB-Konfiguration oder es konnte keine Verbindung zur DB "
+"hergestellt werden"
+
+#: Program/YOURLS-1.7.9/includes/Database/YDB.php:167
+#: Program/YOURLS-1.7.9/includes/class-mysql.php:15
+msgid "Fatal error"
+msgstr "Fataler Fehler"
+
+#: Program/YOURLS-1.7.9/includes/auth.php:53
+#, php-format
+msgid "Could not auto-encrypt passwords. Error was: \"%s\"."
+msgstr "Kann Passworte nicht automatisch verschlüsseln. Fehler: \"%s\"."
+
+#: Program/YOURLS-1.7.9/includes/auth.php:55
+#, php-format
+msgid "<a href=\"%s\">Get help</a>."
+msgstr "<a href=\"%s\">Hilfe aufrufen</a>."
+
+#: Program/YOURLS-1.7.9/includes/auth.php:57
+#, php-format
+msgid "<a href=\"%s\">Click here</a> to dismiss this message for one week."
+msgstr ""
+"<a href=\"%s\">Hier klicken</a> um die Nachricht für eine Woche zu schließen/"
+"zurück zu stellen."
+
+#: Program/YOURLS-1.7.9/includes/class-mysql.php:15
+msgid "Incorrect DB config, please refer to documentation"
+msgstr "Fehlerhafte DB-Konfiguration, siehe Dokumentation"
+
+#: Program/YOURLS-1.7.9/includes/functions-auth.php:20
 msgid "Logged out successfully"
-msgstr "Erfolgreich eingelogt"
+msgstr "Erfolgreich abgemeldet"
 
-#: includes/functions-auth.php:84
+#: Program/YOURLS-1.7.9/includes/functions-auth.php:95
 msgid "Invalid username or password"
-msgstr "Ungültiger Benutzername oder Passwort"
+msgstr "Benutzername oder Passwort ungültig"
 
-#: includes/functions-auth.php:86
+#: Program/YOURLS-1.7.9/includes/functions-auth.php:97
 msgid "Please log in"
 msgstr "Bitte melden Sie sich an"
 
-#: includes/functions-auth.php:116
-msgid ""
-"<strong>Notice</strong>: your password is stored as clear text in your "
-"<tt>config.php</tt>"
-msgstr ""
-"<strong>Hinweis</strong>: Ihr Passwort wurde in Klartext in Config-Datei "
-"<tt>config.php</tt> abgespeichert. "
+#: Program/YOURLS-1.7.9/includes/functions-auth.php:612
+msgid "Unauthorized action or expired link"
+msgstr "Unberechtigte Aktion oder abgelaufener Link"
 
-#: includes/functions-auth.php:117
-msgid ""
-"Did you know you can easily improve the security of your YOURLS install by "
-"<strong>encrypting</strong> your password?"
-msgstr ""
-"Wussten Sie das Sie die Sicherheit Ihrer YOURLS Installation verbessern "
-"können, indem Sie Ihre Passwörter <strong>verschlüsselt</strong> ablegen? "
+#: Program/YOURLS-1.7.9/includes/functions-auth.php:612
+msgid "Error"
+msgstr "Fehler"
 
-#: includes/functions-auth.php:118
-msgid ""
-"See <a href=\"http://yourls.org/userpassword\">UsernamePassword</a> for "
-"details"
-msgstr ""
-"Mehr Informationen gibt es hier <a href=\"http://yourls.org/userpassword"
-"\">UsernamePassword</a>"
-
-#: includes/functions-html.php:140
+#: Program/YOURLS-1.7.9/includes/functions-html.php:147
 #, php-format
 msgid "1 query"
 msgid_plural "%s queries"
 msgstr[0] "1 Abfrage"
 msgstr[1] "%s Abfragen"
 
-#: includes/functions-html.php:145
+#: Program/YOURLS-1.7.9/includes/functions-html.php:156
 #, php-format
 msgid "Powered by %s"
 msgstr "Powered by %s"
 
-#: includes/functions-html.php:171
+#: Program/YOURLS-1.7.9/includes/functions-html.php:189
 msgid "Enter the URL"
 msgstr "Bitte URL eingeben"
 
-#: includes/functions-html.php:172
+#: Program/YOURLS-1.7.9/includes/functions-html.php:191
 msgid "Optional "
-msgstr "Optional"
+msgstr "Optional "
 
-#: includes/functions-html.php:172
+#: Program/YOURLS-1.7.9/includes/functions-html.php:191
 msgid "Custom short URL"
-msgstr "Spezifischer Short URL"
+msgstr "Benutzerdefinierte Kurz-URL"
 
-#: includes/functions-html.php:174
+#: Program/YOURLS-1.7.9/includes/functions-html.php:194
 msgid "Shorten The URL"
-msgstr "Shorte die URL"
+msgstr "Kürze die URL"
 
-#: includes/functions-html.php:200
+#: Program/YOURLS-1.7.9/includes/functions-html.php:239
 msgid "Search for"
-msgstr "Suche nach"
+msgstr "Suchen nach"
 
-#: includes/functions-html.php:202
-msgid "in"
-msgstr "in"
-
-#: includes/functions-html.php:207 includes/functions-html.php:215
-#: includes/functions-html.php:562
+#: Program/YOURLS-1.7.9/includes/functions-html.php:245
+#: Program/YOURLS-1.7.9/includes/functions-html.php:258
+#: Program/YOURLS-1.7.9/includes/functions-html.php:671
 msgid "IP"
 msgstr "IP"
 
-#: includes/functions-html.php:209
-msgid "Order by"
-msgstr "Sortiere nach"
+#: Program/YOURLS-1.7.9/includes/functions-html.php:247
+msgid "Search in"
+msgstr "Suchen in"
 
-#: includes/functions-html.php:220
+#: Program/YOURLS-1.7.9/includes/functions-html.php:249
+#, php-format
+msgid "Search for %1$s in %2$s"
+msgstr "Suchen nach %1$s in %2$s"
+
+#: Program/YOURLS-1.7.9/includes/functions-html.php:261
+msgid "Sort by"
+msgstr "Sortieren nach"
+
+#: Program/YOURLS-1.7.9/includes/functions-html.php:264
 msgid "Ascending"
-msgstr "aufsteigend"
+msgstr "Aufsteigend"
 
-#: includes/functions-html.php:221
+#: Program/YOURLS-1.7.9/includes/functions-html.php:265
 msgid "Descending"
-msgstr "absteigend"
+msgstr "Absteigend"
 
-#: includes/functions-html.php:223
-msgid "Show"
-msgstr "Zeige"
+#: Program/YOURLS-1.7.9/includes/functions-html.php:267
+msgid "Sort order"
+msgstr "Sortierreihenfolge"
 
-#: includes/functions-html.php:224
-msgid "rows"
-msgstr "Reihen"
+#: Program/YOURLS-1.7.9/includes/functions-html.php:269
+#, php-format
+msgid "Order by %1$s %2$s"
+msgstr "Sortieren nach %1$s %2$s"
 
-#: includes/functions-html.php:226
-msgid "Show links with"
-msgstr "Zeige Links mit"
+#: Program/YOURLS-1.7.9/includes/functions-html.php:274
+msgid "Number of rows to show"
+msgstr "Anzahl anzuzeigender Zeilen"
 
-#: includes/functions-html.php:228
+#: Program/YOURLS-1.7.9/includes/functions-html.php:275
+#, php-format
+msgid "Show %s rows"
+msgstr "Zeige %s Zeilen"
+
+#: Program/YOURLS-1.7.9/includes/functions-html.php:280
 msgid "more"
 msgstr "mehr"
 
-#: includes/functions-html.php:229
+#: Program/YOURLS-1.7.9/includes/functions-html.php:281
 msgid "less"
 msgstr "weniger"
 
-#: includes/functions-html.php:231
-msgid "than"
-msgstr "als"
+#: Program/YOURLS-1.7.9/includes/functions-html.php:283
+msgid "Show links with"
+msgstr "Zeige Links mit"
 
-#: includes/functions-html.php:232
-msgid "clicks"
-msgstr "Klicks"
+#: Program/YOURLS-1.7.9/includes/functions-html.php:284
+msgid "Number of clicks"
+msgstr "Anzahl der Klicks : %s"
 
-#: includes/functions-html.php:234
-msgid "Show links created"
-msgstr "Zeige erstellte Links"
+#: Program/YOURLS-1.7.9/includes/functions-html.php:286
+#, php-format
+msgid "Show links with %1$s than %2$s clicks"
+msgstr "Zeige Links mit %1$s als %2$s Klicks"
 
-#: includes/functions-html.php:236
+#: Program/YOURLS-1.7.9/includes/functions-html.php:291
 msgid "before"
 msgstr "vor"
 
-#: includes/functions-html.php:237
+#: Program/YOURLS-1.7.9/includes/functions-html.php:292
 msgid "after"
 msgstr "nach"
 
-#: includes/functions-html.php:238
+#: Program/YOURLS-1.7.9/includes/functions-html.php:293
 msgid "between"
 msgstr "zwischen"
 
-#: includes/functions-html.php:245
+#: Program/YOURLS-1.7.9/includes/functions-html.php:295
+msgid "Show links created"
+msgstr "Zeige erstellte Links"
+
+#: Program/YOURLS-1.7.9/includes/functions-html.php:296
+msgid "Select a date"
+msgstr "Datum auswählen"
+
+#: Program/YOURLS-1.7.9/includes/functions-html.php:298
+msgid "Select an end date"
+msgstr "End-Datum auswählen"
+
+#: Program/YOURLS-1.7.9/includes/functions-html.php:300
+#, php-format
+msgid "Show links created %1$s %2$s %3$s %4$s"
+msgstr "Zeige erstellte Links %1$s %2$s %3$s %4$s"
+
+#: Program/YOURLS-1.7.9/includes/functions-html.php:304
 msgid "Search"
 msgstr "Suche"
 
-#: includes/functions-html.php:247
+#: Program/YOURLS-1.7.9/includes/functions-html.php:306
 msgid "Clear"
 msgstr "Zurücksetzen"
 
-#: includes/functions-html.php:267
+#: Program/YOURLS-1.7.9/includes/functions-html.php:326
 #, php-format
 msgid "1 page"
 msgid_plural "%s pages"
 msgstr[0] "1 Seite"
 msgstr[1] "%s Seiten"
 
-#: includes/functions-html.php:275 includes/functions-html.php:289
+#: Program/YOURLS-1.7.9/includes/functions-html.php:334
 msgid "Go to First Page"
 msgstr "Gehe zur ersten Seite"
 
-#: includes/functions-html.php:275
+#: Program/YOURLS-1.7.9/includes/functions-html.php:334
 msgid "&laquo; First"
 msgstr "&laquo; Erste"
 
-#: includes/functions-html.php:289
+#: Program/YOURLS-1.7.9/includes/functions-html.php:348
+msgid "Go to Last Page"
+msgstr "Gehe zur letzten Seite"
+
+#: Program/YOURLS-1.7.9/includes/functions-html.php:348
 msgid "Last &raquo;"
 msgstr "Letzte &raquo;"
 
-#: includes/functions-html.php:308
+#: Program/YOURLS-1.7.9/includes/functions-html.php:393
 msgid "Your short link"
-msgstr "Dein Short Link"
+msgstr "Dein Kurzlink"
 
-#: includes/functions-html.php:310
+#: Program/YOURLS-1.7.9/includes/functions-html.php:395
+#: Program/YOURLS-1.7.9/yourls-infos.php:551
 msgid "Quick Share"
 msgstr "Schnell teilen"
 
-#: includes/functions-html.php:339
+#: Program/YOURLS-1.7.9/includes/functions-html.php:424
 msgid "Long link"
 msgstr "Original Link"
 
-#: includes/functions-html.php:341 includes/functions-html.php:457
-#: includes/functions-html.php:458
+#: Program/YOURLS-1.7.9/includes/functions-html.php:426
+#: Program/YOURLS-1.7.9/includes/functions-html.php:541
+#: Program/YOURLS-1.7.9/includes/functions-html.php:542
 msgid "Stats"
 msgstr "Statistik"
 
-#: includes/functions-html.php:355
+#: Program/YOURLS-1.7.9/includes/functions-html.php:440
 msgid "Share with"
-msgstr "Teilen mit"
+msgstr "Teilen über"
 
-#: includes/functions-html.php:356
+#: Program/YOURLS-1.7.9/includes/functions-html.php:441
 msgid "Tweet this!"
 msgstr "Tweet das!"
 
-#: includes/functions-html.php:357
+#: Program/YOURLS-1.7.9/includes/functions-html.php:442
 msgid "Share on Facebook"
 msgstr "Teilen auf Facebook"
 
-#: includes/functions-html.php:358
-msgid "Share on Friendfeed"
-msgstr "Teilen auf Friendfeed"
-
-#: includes/functions-html.php:422
+#: Program/YOURLS-1.7.9/includes/functions-html.php:506
+#: Program/YOURLS-1.7.9/yourls-infos.php:239
 msgid "Long URL"
 msgstr "Original URL"
 
-#: includes/functions-html.php:422
+#: Program/YOURLS-1.7.9/includes/functions-html.php:506
 msgid "Save"
 msgstr "Speichern"
 
-#: includes/functions-html.php:422
+#: Program/YOURLS-1.7.9/includes/functions-html.php:506
 msgid "Save new values"
-msgstr "Speichere neuen Wert"
+msgstr "Speichere neue Werte"
 
-#: includes/functions-html.php:422
+#: Program/YOURLS-1.7.9/includes/functions-html.php:506
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: includes/functions-html.php:422
+#: Program/YOURLS-1.7.9/includes/functions-html.php:506
 msgid "Cancel editing"
-msgstr "Editieren Abbrechen"
+msgstr "Bearbeiten abbrechen"
 
-#: includes/functions-html.php:424
+#: Program/YOURLS-1.7.9/includes/functions-html.php:508
 msgid "Error, URL not found"
 msgstr "Fehler, URL nicht gefunden"
 
-#: includes/functions-html.php:470 includes/functions-html.php:471
-msgid "Edit"
-msgstr "Editieren"
+#: Program/YOURLS-1.7.9/includes/functions-html.php:547
+#: Program/YOURLS-1.7.9/includes/functions-html.php:548
+#: Program/YOURLS-1.7.9/yourls-infos.php:249
+#: Program/YOURLS-1.7.9/yourls-infos.php:549
+msgid "Share"
+msgstr "Teilen"
 
-#: includes/functions-html.php:477 includes/functions-html.php:478
+#: Program/YOURLS-1.7.9/includes/functions-html.php:554
+#: Program/YOURLS-1.7.9/includes/functions-html.php:555
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: Program/YOURLS-1.7.9/includes/functions-html.php:561
+#: Program/YOURLS-1.7.9/includes/functions-html.php:562
 msgid "Delete"
 msgstr "Löschen"
 
-#: includes/functions-html.php:499
+#: Program/YOURLS-1.7.9/includes/functions-html.php:583
 msgid "Not a common link"
 msgstr "Kein geläufiger Link"
 
-#: includes/functions-html.php:560
+#: Program/YOURLS-1.7.9/includes/functions-html.php:669
 msgid "Original URL"
 msgstr "Original URL"
 
-#: includes/functions-html.php:564
+#: Program/YOURLS-1.7.9/includes/functions-html.php:673
 msgid "Actions"
 msgstr "Aktionen"
 
-#: includes/functions-html.php:630
+#: Program/YOURLS-1.7.9/includes/functions-html.php:740
 msgid "Username"
 msgstr "Benutzername"
 
-#: includes/functions-html.php:634
+#: Program/YOURLS-1.7.9/includes/functions-html.php:744
 msgid "Password"
 msgstr "Passwort"
 
-#: includes/functions-html.php:638
+#: Program/YOURLS-1.7.9/includes/functions-html.php:751
 msgid "Login"
 msgstr "Anmelden"
 
-#: includes/functions-html.php:656
+#: Program/YOURLS-1.7.9/includes/functions-html.php:772
 #, php-format
 msgid "Hello <strong>%s</strong>"
 msgstr "Hallo <strong>%s</strong>"
 
-#: includes/functions-html.php:656
+#: Program/YOURLS-1.7.9/includes/functions-html.php:772
 msgid "Logout"
 msgstr "Abmelden"
 
-#: includes/functions-html.php:660
+#: Program/YOURLS-1.7.9/includes/functions-html.php:776
 msgid "Help"
 msgstr "Hilfe"
 
-#: includes/functions-html.php:667
+#: Program/YOURLS-1.7.9/includes/functions-html.php:783
 msgid "Go to the admin interface"
 msgstr "Gehe zum Admin Bereich"
 
-#: includes/functions-html.php:668
+#: Program/YOURLS-1.7.9/includes/functions-html.php:784
 msgid "Admin interface"
 msgstr "Admin Bereich"
 
-#: includes/functions-html.php:674
+#: Program/YOURLS-1.7.9/includes/functions-html.php:790
 msgid "Tools"
-msgstr "Tools"
+msgstr "Werkzeuge"
 
-#: includes/functions-install.php:243
+#: Program/YOURLS-1.7.9/includes/functions-html.php:875
+#, php-format
+msgid "Page \"%1$s\" not found"
+msgstr "Seite \"%1$s\" nicht gefunden"
+
+#: Program/YOURLS-1.7.9/includes/functions-html.php:875
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+#: Program/YOURLS-1.7.9/includes/functions-html.php:920
+#: Program/YOURLS-1.7.9/includes/functions-html.php:925
+msgid "Today"
+msgstr "Heute"
+
+#: Program/YOURLS-1.7.9/includes/functions-html.php:921
+#: Program/YOURLS-1.7.9/includes/functions-html.php:926
+msgid "Close"
+msgstr "Schließen"
+
+#: Program/YOURLS-1.7.9/includes/functions-html.php:941
+#, php-format
+msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
+msgstr "<a href=\"%s\">YOURLS version %s</a> ist verfügbar. Bitte updaten!"
+
+#: Program/YOURLS-1.7.9/includes/functions-html.php:996
+msgid "Drag to your toolbar!"
+msgstr "Ziehe dies auf die Lesezeichen-/Bookmark-Toolbar des Browsers!"
+
+#: Program/YOURLS-1.7.9/includes/functions-install.php:256
 #, php-format
 msgid "Table '%s' created."
 msgstr "Tabelle '%s' erstellt."
 
-#: includes/functions-install.php:245
+#: Program/YOURLS-1.7.9/includes/functions-install.php:258
 #, php-format
 msgid "Error creating table '%s'."
 msgstr "Fehler beim erstellen der Tabelle '%s'."
 
-#: includes/functions-install.php:261
+#: Program/YOURLS-1.7.9/includes/functions-install.php:264
+msgid "Could not initialize options"
+msgstr "Optionen konnten nicht initialisiert werden"
+
+#: Program/YOURLS-1.7.9/includes/functions-install.php:268
+msgid "Could not insert sample short URLs"
+msgstr "Es konnten keine Beispiel - Kurz-URLs eingefügt werden"
+
+#: Program/YOURLS-1.7.9/includes/functions-install.php:272
 msgid "YOURLS tables successfully created."
-msgstr "YOURLS Tabelle wurde erfolgreich erstellt."
+msgstr "YOURLS Tabelle(n) wurde(n) erfolgreich erstellt."
 
-#: includes/functions-install.php:263
+#: Program/YOURLS-1.7.9/includes/functions-install.php:274
 msgid "Error creating YOURLS tables."
-msgstr "Fehler beim erstellen der YOURLS Tabelle."
+msgstr "Fehler beim erstellen der YOURLS Tabelle(n)."
 
-#. //translators: weekday
-#: includes/functions-l10n.php:752 includes/functions-l10n.php:762
-#: includes/functions-l10n.php:775
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:800
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:810
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:823
 msgid "Sunday"
 msgstr "Sonntag"
 
-#. //translators: weekday
-#: includes/functions-l10n.php:753 includes/functions-l10n.php:763
-#: includes/functions-l10n.php:776
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:801
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:811
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:824
 msgid "Monday"
 msgstr "Montag"
 
-#. //translators: weekday
-#: includes/functions-l10n.php:754 includes/functions-l10n.php:764
-#: includes/functions-l10n.php:777
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:802
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:812
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:825
 msgid "Tuesday"
 msgstr "Dienstag"
 
-#. //translators: weekday
-#: includes/functions-l10n.php:755 includes/functions-l10n.php:765
-#: includes/functions-l10n.php:778
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:803
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:813
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:826
 msgid "Wednesday"
 msgstr "Mittwoch"
 
-#. //translators: weekday
-#: includes/functions-l10n.php:756 includes/functions-l10n.php:766
-#: includes/functions-l10n.php:779
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:804
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:814
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:827
 msgid "Thursday"
 msgstr "Donnerstag"
 
-#. //translators: weekday
-#: includes/functions-l10n.php:757 includes/functions-l10n.php:767
-#: includes/functions-l10n.php:780
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:805
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:815
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:828
 msgid "Friday"
 msgstr "Freitag"
 
-#. //translators: weekday
-#: includes/functions-l10n.php:758 includes/functions-l10n.php:768
-#: includes/functions-l10n.php:781
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:806
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:816
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:829
 msgid "Saturday"
 msgstr "Samstag"
 
-#. //translators: one-letter abbreviation of the weekday
-#: includes/functions-l10n.php:762
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:810
 msgid "S_Sunday_initial"
 msgstr "S_Sonntag_initial"
 
-#. //translators: one-letter abbreviation of the weekday
-#: includes/functions-l10n.php:763
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:811
 msgid "M_Monday_initial"
 msgstr "M_Montag_initial"
 
-#. //translators: one-letter abbreviation of the weekday
-#: includes/functions-l10n.php:764
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:812
 msgid "T_Tuesday_initial"
 msgstr "T_Dienstag_initial"
 
-#. //translators: one-letter abbreviation of the weekday
-#: includes/functions-l10n.php:765
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:813
 msgid "W_Wednesday_initial"
 msgstr "W_Mittwoch_initial"
 
-#. //translators: one-letter abbreviation of the weekday
-#: includes/functions-l10n.php:766
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:814
 msgid "T_Thursday_initial"
 msgstr "T_Donnerstag_initial"
 
-#. //translators: one-letter abbreviation of the weekday
-#: includes/functions-l10n.php:767
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:815
 msgid "F_Friday_initial"
 msgstr "F_Freitag_initial"
 
-#. //translators: one-letter abbreviation of the weekday
-#: includes/functions-l10n.php:768
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:816
 msgid "S_Saturday_initial"
 msgstr "S_Samstag_initial"
 
-#. //translators: three-letter abbreviation of the weekday
-#: includes/functions-l10n.php:775
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:823
 msgid "Sun"
 msgstr "So"
 
-#. //translators: three-letter abbreviation of the weekday
-#: includes/functions-l10n.php:776
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:824
 msgid "Mon"
 msgstr "Mo"
 
-#. //translators: three-letter abbreviation of the weekday
-#: includes/functions-l10n.php:777
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:825
 msgid "Tue"
 msgstr "Di"
 
-#. //translators: three-letter abbreviation of the weekday
-#: includes/functions-l10n.php:778
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:826
 msgid "Wed"
 msgstr "Mi"
 
-#. //translators: three-letter abbreviation of the weekday
-#: includes/functions-l10n.php:779
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:827
 msgid "Thu"
 msgstr "Do"
 
-#. //translators: three-letter abbreviation of the weekday
-#: includes/functions-l10n.php:780
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:828
 msgid "Fri"
 msgstr "Fr"
 
-#. //translators: three-letter abbreviation of the weekday
-#: includes/functions-l10n.php:781
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:829
 msgid "Sat"
 msgstr "Sa"
 
-#. //translators: month name
-#: includes/functions-l10n.php:784 includes/functions-l10n.php:799
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:832
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:847
 msgid "January"
 msgstr "Januar"
 
-#. //translators: month name
-#: includes/functions-l10n.php:785 includes/functions-l10n.php:800
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:833
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:848
 msgid "February"
 msgstr "Februar"
 
-#. //translators: month name
-#: includes/functions-l10n.php:786 includes/functions-l10n.php:801
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:834
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:849
 msgid "March"
 msgstr "März"
 
-#. //translators: month name
-#: includes/functions-l10n.php:787 includes/functions-l10n.php:802
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:835
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:850
 msgid "April"
 msgstr "April"
 
-#. //translators: month name
-#: includes/functions-l10n.php:788 includes/functions-l10n.php:803
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:836
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:851
 msgid "May"
 msgstr "Mai"
 
-#. //translators: month name
-#: includes/functions-l10n.php:789 includes/functions-l10n.php:804
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:837
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:852
 msgid "June"
 msgstr "Juni"
 
-#. //translators: month name
-#: includes/functions-l10n.php:790 includes/functions-l10n.php:805
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:838
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:853
 msgid "July"
 msgstr "Juli"
 
-#. //translators: month name
-#: includes/functions-l10n.php:791 includes/functions-l10n.php:806
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:839
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:854
 msgid "August"
 msgstr "August"
 
-#. //translators: month name
-#: includes/functions-l10n.php:792 includes/functions-l10n.php:807
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:840
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:855
 msgid "September"
 msgstr "September"
 
-#. //translators: month name
-#: includes/functions-l10n.php:793 includes/functions-l10n.php:808
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:841
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:856
 msgid "October"
 msgstr "Oktober"
 
-#. //translators: month name
-#: includes/functions-l10n.php:794 includes/functions-l10n.php:809
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:842
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:857
 msgid "November"
 msgstr "November"
 
-#. //translators: month name
-#: includes/functions-l10n.php:795 includes/functions-l10n.php:810
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:843
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:858
 msgid "December"
 msgstr "Dezember"
 
-#. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:799
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:847
 msgid "Jan_January_abbreviation"
 msgstr "Jan_Januar_Abkürzung"
 
-#. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:800
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:848
 msgid "Feb_February_abbreviation"
 msgstr "Feb_Februar_Abkürzung"
 
-#. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:801
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:849
 msgid "Mar_March_abbreviation"
 msgstr "Mär_März_Abkürzung"
 
-#. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:802
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:850
 msgid "Apr_April_abbreviation"
 msgstr "Apr_April_Abkürzung"
 
-#. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:803
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:851
 msgid "May_May_abbreviation"
 msgstr "Mai_Mai_Abkürzung"
 
-#. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:804
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:852
 msgid "Jun_June_abbreviation"
 msgstr "Jun_Juni_Abkürzung"
 
-#. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:805
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:853
 msgid "Jul_July_abbreviation"
 msgstr "Jul_Juli_Abkürzung"
 
-#. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:806
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:854
 msgid "Aug_August_abbreviation"
 msgstr "Aug_August_Abkürzung"
 
-#. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:807
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:855
 msgid "Sep_September_abbreviation"
 msgstr "Sep_September_Abkürzung"
 
-#. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:808
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:856
 msgid "Oct_October_abbreviation"
 msgstr "Okt_Oktober_Abkürzung"
 
-#. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:809
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:857
 msgid "Nov_November_abbreviation"
 msgstr "Nov_November_Abkürzung"
 
-#. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:810
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:858
 msgid "Dec_December_abbreviation"
 msgstr "Dez_Dezember_Abkürzung"
 
-#: includes/functions-l10n.php:817
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:865
 msgid "am"
 msgstr "vormittags"
 
-#: includes/functions-l10n.php:818
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:866
 msgid "pm"
 msgstr "nachmittags"
 
-#: includes/functions-l10n.php:819
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:867
 msgid "AM"
 msgstr "VORM."
 
-#: includes/functions-l10n.php:820
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:868
 msgid "PM"
 msgstr "NACHM."
 
-#. //translators: $thousands_sep argument for http://php.net/number_format, default is ,
-#: includes/functions-l10n.php:826
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:874
 msgid "number_format_thousands_sep"
-msgstr ""
+msgstr "Tausender-Trennzeichen"
 
-#. //translators: $dec_point argument for http://php.net/number_format, default is .
-#: includes/functions-l10n.php:830
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:878
 msgid "number_format_decimal_point"
-msgstr ""
+msgstr "Dezimalpunkt-Zeichen"
 
-#. //translators: 'rtl' or 'ltr'. This sets the text direction for WordPress.
-#: includes/functions-l10n.php:837
+#: Program/YOURLS-1.7.9/includes/functions-l10n.php:885
 msgid "ltr"
 msgstr "ltr"
 
-#: includes/functions-plugins.php:386
+#: Program/YOURLS-1.7.9/includes/functions-plugins.php:449
 msgid "Could not find and deactivated plugin :"
 msgid_plural "Could not find and deactivated plugins :"
-msgstr[0] "Plugin konnte nicht gefunden oder deaktiviert werden:"
-msgstr[1] "Plugins konnten nicht gefunden oder deaktiviert werden:"
+msgstr[0] "Plugin nicht gefunden und daher deaktiviert:"
+msgstr[1] "Plugins nicht gefunden und daher deaktiviert:"
 
-#: includes/functions-plugins.php:423
+#: Program/YOURLS-1.7.9/includes/functions-plugins.php:494
 msgid "Not a valid plugin file"
-msgstr "Keine gültige Plugin Datei"
+msgstr "Keine gültige Plugin-Datei"
 
-#: includes/functions-plugins.php:428
+#: Program/YOURLS-1.7.9/includes/functions-plugins.php:499
 msgid "Plugin already activated"
 msgstr "Plugin wurde bereits aktiviert"
 
-#: includes/functions-plugins.php:436
+#: Program/YOURLS-1.7.9/includes/functions-plugins.php:508
 #, php-format
-msgid "Plugin generated expected output. Error was: <br/><pre>%s</pre>"
+msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
 msgstr ""
 "Das Plugin hat eine unerwartete Ausgabe generiert: Fehler war: <br/><pre>%s</"
 "pre>"
 
-#: includes/functions-plugins.php:459
+#: Program/YOURLS-1.7.9/includes/functions-plugins.php:533
 msgid "Plugin not active"
 msgstr "Plugin ist nicht aktiv"
 
-#: includes/functions-plugins.php:539
+#: Program/YOURLS-1.7.9/includes/functions-plugins.php:613
 msgid ""
 "This page does not exist. Maybe a plugin you thought was activated is "
 "inactive?"
-msgstr ""
-"Diese Seite existiert nicht. Vielleicht wurde das Plugin dieser Seite "
-"deaktiviert?"
+msgstr "Diese Seite existiert nicht. Vielleicht wurde ein Plugin deaktiviert?"
 
-#: includes/functions-plugins.php:539
+#: Program/YOURLS-1.7.9/includes/functions-plugins.php:613
 msgid "Invalid link"
 msgstr "Ungültiger Link"
 
-#: includes/functions.php:188
+#: Program/YOURLS-1.7.9/includes/functions.php:219
 msgid "Missing or malformed URL"
 msgstr "Keine oder fehlerhafte URL"
 
-#: includes/functions.php:202
+#: Program/YOURLS-1.7.9/includes/functions.php:233
 msgid "URL is a short URL"
-msgstr "URL ist eine short URL"
+msgstr "URL ist eine Kurz-URL"
 
-#: includes/functions.php:234
+#: Program/YOURLS-1.7.9/includes/functions.php:265
 #, php-format
 msgid "Short URL %s already exists in database or is reserved"
-msgstr "Short URL %s existiert bereits in der Datenbank oder ist reserviert"
+msgstr "Kurz-URL %s existiert bereits in der Datenbank oder ist reserviert"
 
-#. //translators: eg "http://someurl/ added to DB"
-#: includes/functions.php:240 includes/functions.php:268
+#: Program/YOURLS-1.7.9/includes/functions.php:271
+#: Program/YOURLS-1.7.9/includes/functions.php:293
 #, php-format
 msgid "%s added to database"
 msgstr "%s zur Datenbank hinzugefügt"
 
-#. //translators: eg "http://someurl/ already exists"
-#: includes/functions.php:286
+#: Program/YOURLS-1.7.9/includes/functions.php:301
+msgid "Error saving url to database"
+msgstr "Fehler beim Speichern der URL in der Datenbank"
+
+#: Program/YOURLS-1.7.9/includes/functions.php:318
 #, php-format
 msgid "%s already exists in database"
 msgstr "%s existiert bereits in der Datenbank"
 
-#: includes/functions.php:336
+#: Program/YOURLS-1.7.9/includes/functions.php:352
+msgid "Long URL or Short URL cannot be blank"
+msgstr "Original- oder Kurz-URL muss angegeben werden"
+
+#: Program/YOURLS-1.7.9/includes/functions.php:382
 msgid "Link updated in database"
 msgstr "Link wurde in der Datenbank aktualisiert"
 
-#. //translators: "Error updating http://someurl/ (Shorturl: http://sho.rt/blah)"
-#: includes/functions.php:339
+#: Program/YOURLS-1.7.9/includes/functions.php:385
 #, php-format
 msgid "Error updating %s (Short URL: %s)"
-msgstr "Fehler beim aktualisieren von %s (Short URL: %s)"
+msgstr "Fehler beim Aktualisieren von %s (Kurz-URL: %s)"
 
-#: includes/functions.php:345
+#: Program/YOURLS-1.7.9/includes/functions.php:391
 msgid "URL or keyword already exists in database"
-msgstr "URL or Schlüsselwort existiert bereits in der Datenbank"
+msgstr "URL oder Schlüsselwort existiert bereits in der Datenbank"
 
-#: includes/functions.php:409
-msgid "DB config missing, or could not find DB class"
-msgstr "DB Konfiguration fehlt oder DB Klasse konnte nicht gefunden werden"
-
-#: includes/functions.php:409 includes/functions.php:418
-msgid "Fatal error"
-msgstr "Fataler Fehler"
-
-#: includes/functions.php:723
+#: Program/YOURLS-1.7.9/includes/functions.php:813
 #, php-format
 msgid ""
 "if you are not redirected after 10 seconds, please <a href=\"%s\">click "
 "here</a>"
 msgstr ""
-"Sollte Sie nach 10 Sekunden nicht weitergeleitet werden, bitte <a href=\"%s"
+"Sollten Sie nach 10 Sekunden nicht weitergeleitet werden, bitte <a href=\"%s"
 "\">hier klicken</a>"
 
-#: includes/functions.php:731
+#: Program/YOURLS-1.7.9/includes/functions.php:821
 #, php-format
 msgid "Please <a href=\"%s\">click here</a>"
 msgstr "Bitte <a href=\"%s\">hier klicken</a>"
 
-#: includes/functions.php:1235
+#: Program/YOURLS-1.7.9/includes/functions.php:1448
 msgid "Too many URLs added too fast. Slow down please."
 msgstr "Zu schnell zu viele URLs hinzugefügt. Nicht so schnell bitte."
 
-#: includes/functions.php:1235
-msgid "Forbidden"
-msgstr "Unzulässig"
+#: Program/YOURLS-1.7.9/includes/functions.php:1448
+msgid "Too Many Requests"
+msgstr "Zu viele Anfragen"
 
-#: includes/functions.php:1512
-msgid "Unauthorized action or expired link"
-msgstr "Unberechtigte Aktion oder abgelaufener Link"
-
-#: includes/functions.php:1512
-msgid "Error"
-msgstr "Fehler"
-
-#: includes/functions.php:1895
+#: Program/YOURLS-1.7.9/includes/functions.php:2096
 msgid "Service temporarily unavailable"
-msgstr "Dienst Temporär nicht verfügbar"
+msgstr "Dienst vorübergehend nicht verfügbar"
 
-#: includes/functions.php:1896
+#: Program/YOURLS-1.7.9/includes/functions.php:2097
 msgid "Our service is currently undergoing scheduled maintenance."
 msgstr ""
-"Unser Dienst steht aufgrund Wartungsarbeiten derzeit leider nicht zur "
+"Unser Dienst steht aufgrund von Wartungsarbeiten derzeit leider nicht zur "
 "Verfügung."
 
-#: includes/functions.php:1897
+#: Program/YOURLS-1.7.9/includes/functions.php:2098
 msgid ""
 "Things should not last very long, thank you for your patience and please "
 "excuse the inconvenience"
 msgstr ""
-"Es geht gleich weiter, Vielen Dank für Ihre Geduld and entschuldigen Sie die "
-"Unannehmlichkeiten"
+"Es geht gleich weiter... Vielen Dank für Ihre Geduld and entschuldigen Sie "
+"die Unannehmlichkeiten"
 
-#: includes/functions.php:2017
+#: Program/YOURLS-1.7.9/includes/functions.php:2226
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
@@ -1390,11 +1326,284 @@ msgstr ""
 "%1$s ist <strong>veraltet</strong> seit Version %2$s! Benutzen Sie %3$s "
 "stattdessen."
 
-#: includes/functions.php:2019
+#: Program/YOURLS-1.7.9/includes/functions.php:2228
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
 "available."
 msgstr ""
-"%1$s ist <strong>veraltet</strong> seit Version %2$s und keine Alternative "
-"verfügbar."
+"%1$s ist <strong>veraltet</strong> seit Version %2$s und bisher keine "
+"Alternative verfügbar."
+
+#: Program/YOURLS-1.7.9/user/plugins/sample-toolbar/plugin.php:62
+msgid "day"
+msgid_plural "days"
+msgstr[0] "Tag"
+msgstr[1] "Tage"
+
+#: Program/YOURLS-1.7.9/user/plugins/sample-toolbar/plugin.php:67
+msgid "view"
+msgid_plural "views"
+msgstr[0] "Ansicht"
+msgstr[1] "Ansichten"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:214
+#, php-format
+msgid "Statistics for %s"
+msgstr "Statistik für %s"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:237
+msgid "Aggregate stats for duplicate short URLs"
+msgstr "Summe der doppelten Kurz-URLs"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:245
+#: Program/YOURLS-1.7.9/yourls-infos.php:256
+msgid "Traffic statistics"
+msgstr "Zugriff-Statistik"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:246
+#: Program/YOURLS-1.7.9/yourls-infos.php:442
+msgid "Traffic location"
+msgstr "Traffic Herkunft"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:247
+#: Program/YOURLS-1.7.9/yourls-infos.php:479
+msgid "Traffic sources"
+msgstr "Zugriff-Quellen"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:264
+#: Program/YOURLS-1.7.9/yourls-infos.php:304
+msgid "Last 24 hours"
+msgstr "Letzte 24 Stunden"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:265
+#: Program/YOURLS-1.7.9/yourls-infos.php:306
+msgid "Last 7 days"
+msgstr "Letzte 7 Tage"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:266
+#: Program/YOURLS-1.7.9/yourls-infos.php:308
+msgid "Last 30 days"
+msgstr "Letzte 30 Tage"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:267
+#: Program/YOURLS-1.7.9/yourls-infos.php:310
+msgid "All time"
+msgstr "Gesamter Zeitraum"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:319
+#, php-format
+msgid "Number of hits : %s"
+msgstr "Anzahl der Treffer : %s"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:342
+msgid "Historical click count"
+msgstr "Klick-Historie"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:348
+#, php-format
+msgid "about 1 day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "ungefähr 1 Tag her"
+msgstr[1] "ungefähr %s Tage her"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:351
+#, php-format
+msgid "Short URL created on %s"
+msgstr "Kurz-URL erstellt am %s"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:366
+#: Program/YOURLS-1.7.9/yourls-infos.php:373
+#, php-format
+msgid "%s per day"
+msgstr "%s am Tag"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:369
+#, php-format
+msgid "%s per hour"
+msgstr "%s pro Stunde"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:376
+#, php-format
+msgid "%s hit"
+msgid_plural "%s hits"
+msgstr[0] "%s Treffer"
+msgstr[1] "%s Treffer"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:383
+msgid "Best day"
+msgstr "Bester Tag"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:390
+#, php-format
+msgid "<strong>%1$s</strong> hit on %2$s"
+msgid_plural "<strong>%1$s</strong> hits on %2$s"
+msgstr[0] "<strong>%1$s</strong> Treffer am %2$s"
+msgstr[1] "<strong>%1$s</strong> Treffer am %2$s"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:391
+#: Program/YOURLS-1.7.9/yourls-infos.php:453
+msgid "Click for more details"
+msgstr "Hier klicken für mehr Details"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:397
+#: Program/YOURLS-1.7.9/yourls-infos.php:400
+#, php-format
+msgid "Year %s"
+msgstr "Jahr %s"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:419
+#: Program/YOURLS-1.7.9/yourls-infos.php:457
+#, php-format
+msgid "1 hit"
+msgid_plural "%s hits"
+msgstr[0] "1 Treffer"
+msgstr[1] "%s Treffer"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:436
+msgid "No traffic yet. Get some clicks first!"
+msgstr "Kein Zugriff bisher. Sie brauchen erst einige Klicks!"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:451
+msgid "Top 5 countries"
+msgstr "Top 5 Länder"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:464
+msgid "Overall traffic"
+msgstr "Zugriffe insgesamt"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:473
+msgid "No country data."
+msgstr "Keine GEO Daten vorhanden."
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:488
+msgid "Referrer shares"
+msgstr "Referrer für \"Teilen\""
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:491
+#: Program/YOURLS-1.7.9/yourls-infos.php:493
+msgid "Others"
+msgstr "Sonstige"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:495
+#: Program/YOURLS-1.7.9/yourls-infos.php:528
+msgid "Referrers"
+msgstr "Referrer"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:502
+#: Program/YOURLS-1.7.9/yourls-infos.php:512
+msgid "(details)"
+msgstr "(Details)"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:512
+msgid "Various:"
+msgstr "Verschiedene:"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:526
+msgid "Direct vs Referrer Traffic"
+msgstr "Direkt- vs. Referrer-Zugriffe"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:528
+msgid "Direct"
+msgstr "Direkt"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:530
+msgid "Direct traffic:"
+msgstr "Direkte Zugriffe::"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:530
+#: Program/YOURLS-1.7.9/yourls-infos.php:531
+#, php-format
+msgid "<strong>%s</strong> hit"
+msgid_plural "<strong>%s</strong> hits"
+msgstr[0] "<strong>%s</strong> Treffer"
+msgstr[1] "<strong>%s</strong> Treffer"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:531
+msgid "Referrer traffic:"
+msgstr "Referrer Zugriffe:"
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:540
+msgid "No referrer data."
+msgstr "Keine Referrer-Daten vorhanden."
+
+#: Program/YOURLS-1.7.9/yourls-infos.php:551
+msgid "Short link"
+msgstr "Kurzlink"
+
+#~ msgid ""
+#~ "YOURLS requires the mysql, mysqli or pdo_mysql PHP extension. No "
+#~ "extension found. Check your server config, or contact your host."
+#~ msgstr ""
+#~ "YOURLS benötigt die \"mysql\", \"mysqli\" oder \"pdo_mysql\" PHP-"
+#~ "Erweiterung. Keine der Erweiterungen wurde gefunden. Überprüfen Sie die "
+#~ "Server-Konfiguration oder kontaktieren Sie Ihren Server-Hoster/"
+#~ "Administrator."
+
+#~ msgid "Share on Friendfeed"
+#~ msgstr "Teilen auf Friendfeed"
+
+#~ msgid "Forbidden"
+#~ msgstr "Unzulässig"
+
+#~ msgid "Short URL:"
+#~ msgstr "Short URL:"
+
+#~ msgid "Long URL:"
+#~ msgstr "Original URL:"
+
+#~ msgid "Traffic Sources"
+#~ msgstr "Traffic Quellen"
+
+#~ msgid "Quick Share "
+#~ msgstr "Schnell Teilen"
+
+#~ msgid "Descending Order"
+#~ msgstr "in absteigender Reihenfolge"
+
+#~ msgid "Ascending Order"
+#~ msgstr "in aufsteigender Reihenfolge"
+
+#~ msgid ""
+#~ "With the Standard Bookmarklets you will also get a <span>Quick Share</"
+#~ "span> tool box to make posting to Twitter, Facebook or Friendfeed a snap."
+#~ msgstr ""
+#~ "Das Standard Bookmarklets enthält eine <span>Quick Share</span> Tool Box "
+#~ "mit der Sie das Posten auf Twitter, Facebook oder Friendfeed "
+#~ "beschleunigen können."
+
+#~ msgid ""
+#~ "<strong>Notice</strong>: your password is stored as clear text in your "
+#~ "<tt>config.php</tt>"
+#~ msgstr ""
+#~ "<strong>Hinweis</strong>: Ihr Passwort wurde in Klartext in Config-Datei "
+#~ "<tt>config.php</tt> abgespeichert. "
+
+#~ msgid ""
+#~ "Did you know you can easily improve the security of your YOURLS install "
+#~ "by <strong>encrypting</strong> your password?"
+#~ msgstr ""
+#~ "Wussten Sie das Sie die Sicherheit Ihrer YOURLS Installation verbessern "
+#~ "können, indem Sie Ihre Passwörter <strong>verschlüsselt</strong> ablegen? "
+
+#~ msgid ""
+#~ "See <a href=\"http://yourls.org/userpassword\">UsernamePassword</a> for "
+#~ "details"
+#~ msgstr ""
+#~ "Mehr Informationen gibt es hier <a href=\"http://yourls.org/userpassword"
+#~ "\">UsernamePassword</a>"
+
+#~ msgid "in"
+#~ msgstr "in"
+
+#~ msgid "Show"
+#~ msgstr "Zeige"
+
+#~ msgid "rows"
+#~ msgstr "Reihen"
+
+#~ msgid "than"
+#~ msgstr "als"
+
+#~ msgid "clicks"
+#~ msgstr "Klicks"
