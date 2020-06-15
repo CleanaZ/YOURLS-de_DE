@@ -25,7 +25,7 @@ informieren Sie sich bitte anhand der folgenden Links über das weitere Vorgehen
 Wenn Sie Fehler finden oder Vorschläge haben, dann klonen Sie das Repository, nehmen Sie die Änderungen vor und machen
 einen Pull-Request.
 
-Alternativ können Sie mich [per Mail](admin@progasoft.de) kontaktieren und ich pflege die Änderung(en) ein.
+Alternativ können Sie mich [per Mail](mailto:admin@progasoft.de) kontaktieren und ich pflege die Änderung(en) ein.
 
 ### Lizenz
 --------
