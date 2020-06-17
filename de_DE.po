@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.7.9\n"
 "POT-Creation-Date: 2020-06-14 05:23+0200\n"
-"PO-Revision-Date: 2020-06-15 04:42+0200\n"
+"PO-Revision-Date: 2020-06-17 03:36+0200\n"
 "Last-Translator: Ralf Zrenner <admin@progasoft.de>\n"
 "Language-Team: PROGASOFT\n"
 "Language: de_DE\n"
@@ -242,7 +242,7 @@ msgid ""
 msgstr ""
 "Sollte nach Aktivierung eines Plugin etwas schief gehen und YOURLS nicht "
 "mehr erreichbar sein, benennen sie das Verzeichnis des Plugins einfach um "
-"oder löschen es, oder geben Sie der Plugin-Datei einen anderen Name als "
+"oder löschen es - oder geben Sie der Plugin-Datei einen anderen Name als "
 "<code>plugin.php</code>."
 
 #: Program/YOURLS-1.7.9/admin/plugins.php:161
@@ -254,8 +254,8 @@ msgid ""
 "For more plugins, head to the official <a href=\"http://yourls.org/awesome"
 "\">Plugin list</a>."
 msgstr ""
-"Mehr Plugins erhalten Sie über die offizielle Seite <a href=\"http://yourls."
-"org/pluginlist\">Plugin list</a>."
+"Weitere Plugins erhalten Sie über die offizielle Seite <a href=\"http://"
+"yourls.org/pluginlist\">Plugin list</a>."
 
 #: Program/YOURLS-1.7.9/admin/tools.php:6
 msgid "Cool YOURLS Tools"
@@ -1364,7 +1364,7 @@ msgstr "Zugriff-Statistik"
 #: Program/YOURLS-1.7.9/yourls-infos.php:246
 #: Program/YOURLS-1.7.9/yourls-infos.php:442
 msgid "Traffic location"
-msgstr "Traffic Herkunft"
+msgstr "Zugriff-Herkunft"
 
 #: Program/YOURLS-1.7.9/yourls-infos.php:247
 #: Program/YOURLS-1.7.9/yourls-infos.php:479
